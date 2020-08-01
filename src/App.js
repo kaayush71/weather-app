@@ -83,7 +83,7 @@ function App() {
           ></input>
         </div>
         {typeof weather.main != "undefined" ? (
-          <div className="container">
+          <div className="con">
             <div className="weather-box">
               <i className="wu wu-128 wu-white wu-day wu-cloudy"></i>
 

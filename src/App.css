@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .app {
-  position: absolute;
   min-height: 100%;
   min-width: 100%;
   background-image: url("./assets/winter.jpg");
@@ -51,7 +50,7 @@ main {
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.959);
 }
-.container {
+.con {
   position: relative;
   margin: 0 auto;
   width: 95vw;
@@ -124,6 +123,34 @@ main {
 }
 .wu {
   position: absolute;
-  top: 43%;
+  top: 45.5%;
   left: 52%;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .con {
+    width: 100%;
+  }
+  .location-box .location {
+    font-size: 65px;
+  }
+  .location-box .date {
+    font-size: 13px;
+  }
+  .weather-box .temp {
+    font-size: 90px;
+  }
+  .weather-box .weather {
+    font-size: 55px;
+  }
+  .wu-128 {
+    width: 90px !important;
+    height: 90px !important;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
 }
